@@ -137,7 +137,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
-    airbrussh (1.5.1)
+    airbrussh (1.5.2)
       sshkit (>= 1.6.1, != 1.7.0)
     amazing_print (1.5.0)
     ast (2.4.2)
@@ -448,7 +448,7 @@ GEM
       net-ssh (>= 5.0.0, < 8.0.0)
     net-smtp (0.4.0.1)
       net-protocol
-    net-ssh (7.2.1)
+    net-ssh (7.2.3)
     netrc (0.11.0)
     nio4r (2.7.0)
     nokogiri (1.16.2)
@@ -652,7 +652,8 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sshkit (1.22.0)
+    sshkit (1.22.1)
+      base64
       mutex_m
       net-scp (>= 1.1.2)
       net-sftp (>= 2.1.2)
