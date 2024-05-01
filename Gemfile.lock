@@ -448,7 +448,7 @@ GEM
       net-ssh (>= 5.0.0, < 8.0.0)
     net-smtp (0.4.0.1)
       net-protocol
-    net-ssh (7.2.1)
+    net-ssh (7.2.3)
     netrc (0.11.0)
     nio4r (2.7.0)
     nokogiri (1.16.2)
@@ -652,7 +652,8 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sshkit (1.22.0)
+    sshkit (1.22.2)
+      base64
       mutex_m
       net-scp (>= 1.1.2)
       net-sftp (>= 2.1.2)
